@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android Fundamentals</string>
+    <string name="hello_world">1. Hello World</string>
+    <string name="_interractive_ui">2. Interractive UI</string>
+</resources>
