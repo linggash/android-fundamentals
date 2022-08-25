@@ -2,4 +2,8 @@
     <string name="app_name">Android Fundamentals</string>
     <string name="hello_world">1. Hello World</string>
     <string name="_interractive_ui">2. Interractive UI</string>
+    <string name="button_label_toast">Toast</string>
+    <string name="button_label_count">Count</string>
+    <string name="count_initial_value">0</string>
+    <string name="toast_message">Hello Toast!</string>
 </resources>
