@@ -10,6 +10,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private void startIntent(Class app, String msg){
+        Intent intent = new Intent(this, app);
+
+        startActivity(intent);
+        Log.d(LOG_TAG, msg);
+    }
+
     private static final String LOG_TAG =
             MainActivity.class.getSimpleName();
 
@@ -21,19 +28,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void helloWorld(View view) {
-        Intent intent = new Intent(this, HelloWorld.class);
-
-        startActivity(intent);
-        Log.d(LOG_TAG, "1. Hello World");
+        startIntent(HelloWorld.class, "1. Hello World");
     }
 
     public void interractiveUi(View view) {
-        Intent intent = new Intent(this, InterractiveUi.class);
-
-        startActivity(intent);
-        Log.d(LOG_TAG, "2. Interracttive UI");
+        startIntent(InterractiveUi.class, "2. Interractive UI");
     }
 
     public void textScrollingView(View view) {
+        startIntent(TextAndScrollingView.class, "3. Text and Scrolling View");
     }
 }
