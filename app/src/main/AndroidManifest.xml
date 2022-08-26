@@ -14,12 +14,15 @@
         android:theme="@style/Theme.AndroidFundamentals"
         tools:targetApi="31">
         <activity
+            android:name=".TextAndScrollingView"
+            android:exported="false" />
+        <activity
             android:name=".InterractiveUi"
             android:label="@string/_interractive_ui"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.linggash.androidfundamentals.MainActivity"/>
+                android:value="com.linggash.androidfundamentals.MainActivity" />
         </activity>
         <activity
             android:name=".HelloWorld"

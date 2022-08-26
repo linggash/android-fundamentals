@@ -6,4 +6,5 @@
     <string name="button_label_count">Count</string>
     <string name="count_initial_value">0</string>
     <string name="toast_message">Hello Toast!</string>
+    <string name="text_scrolling_view">3. Text and Scrolling View</string>
 </resources>

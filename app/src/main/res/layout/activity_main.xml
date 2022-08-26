@@ -31,6 +31,14 @@
                 android:onClick="interractiveUi"
                 android:text="@string/_interractive_ui"
                 android:textAlignment="textStart"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/text_scrolling_view"
+                android:onClick="textScrollingView"
+                android:text="@string/text_scrolling_view"
+                android:textAlignment="textStart"/>
 
         </LinearLayout>
 

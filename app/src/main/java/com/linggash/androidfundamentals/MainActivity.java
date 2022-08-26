@@ -33,4 +33,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         Log.d(LOG_TAG, "2. Interracttive UI");
     }
+
+    public void textScrollingView(View view) {
+    }
 }
