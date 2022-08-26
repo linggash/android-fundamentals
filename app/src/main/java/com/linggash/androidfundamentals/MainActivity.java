@@ -42,4 +42,8 @@ public class MainActivity extends AppCompatActivity {
     public void basicActivity(View view) {
         startIntent(BasicActivity.class, "4. Learn to Help Yourself");
     }
+
+    public void activitiesAndIntents(View view) {
+        startIntent(ActivitiesAndIntents.class,"5. Activities and Intents");
+    }
 }

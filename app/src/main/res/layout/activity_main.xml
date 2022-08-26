@@ -47,6 +47,14 @@
                 android:onClick="basicActivity"
                 android:text="@string/basic_activity"
                 android:textAlignment="textStart"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/activities_and_intents"
+                android:onClick="activitiesAndIntents"
+                android:text="@string/activities_and_intents"
+                android:textAlignment="textStart"/>
 
         </LinearLayout>
 

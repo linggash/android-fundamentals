@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.linggash.androidfundamentals" >
+    package="com.linggash.androidfundamentals">
 
     <application
         android:allowBackup="true"
@@ -12,21 +12,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentals"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
-            android:name=".BasicActivity"
-            android:exported="false"
-            android:label="@string/title_activity_basic"
-            android:theme="@style/Theme.AndroidFundamentals.NoActionBar"
+            android:name=".ActivitiesAndIntents"
+            android:label="@string/activities_and_intents"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.linggash.androidfundamentals.MainActivity"/>
         </activity>
         <activity
+            android:name=".BasicActivity"
+            android:label="@string/title_activity_basic"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AndroidFundamentals.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.linggash.androidfundamentals.MainActivity" />
+        </activity>
+        <activity
             android:name=".TextAndScrollingView"
             android:label="@string/text_scrolling_view"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.linggash.androidfundamentals.MainActivity" />
@@ -34,7 +41,7 @@
         <activity
             android:name=".InterractiveUi"
             android:label="@string/_interractive_ui"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.linggash.androidfundamentals.MainActivity" />
@@ -42,14 +49,14 @@
         <activity
             android:name=".HelloWorld"
             android:label="@string/hello_world"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.linggash.androidfundamentals.MainActivity" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
