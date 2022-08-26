@@ -38,4 +38,8 @@ public class MainActivity extends AppCompatActivity {
     public void textScrollingView(View view) {
         startIntent(TextAndScrollingView.class, "3. Text and Scrolling View");
     }
+
+    public void basicActivity(View view) {
+        startIntent(BasicActivity.class, "4. Learn to Help Yourself");
+    }
 }

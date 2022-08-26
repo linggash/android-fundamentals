@@ -17,7 +17,12 @@
             android:name=".BasicActivity"
             android:exported="false"
             android:label="@string/title_activity_basic"
-            android:theme="@style/Theme.AndroidFundamentals.NoActionBar" />
+            android:theme="@style/Theme.AndroidFundamentals.NoActionBar"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.linggash.androidfundamentals.MainActivity"/>
+        </activity>
         <activity
             android:name=".TextAndScrollingView"
             android:label="@string/text_scrolling_view"

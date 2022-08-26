@@ -39,6 +39,14 @@
                 android:onClick="textScrollingView"
                 android:text="@string/text_scrolling_view"
                 android:textAlignment="textStart"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/learn_to_help_yourself"
+                android:onClick="basicActivity"
+                android:text="@string/basic_activity"
+                android:textAlignment="textStart"/>
 
         </LinearLayout>
 
