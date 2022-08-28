@@ -42,4 +42,5 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="basic_activity">4. Learn to Help Yourself</string>
     <string name="activities_and_intents">5. Activities and Intents</string>
     <string name="button_main">Send</string>
+    <string name="text_header">Message Received</string>
 </resources>

@@ -14,18 +14,25 @@
         android:theme="@style/Theme.AndroidFundamentals"
         tools:targetApi="31">
         <activity
+            android:name=".SecondActivity"
+            android:label="Second Activity"
+            android:parentActivityName=".ActivitiesAndIntents">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.linggash.androidfundamentals.ActivitiesAndIntents"/>
+        </activity>
+        <activity
             android:name=".ActivitiesAndIntents"
             android:label="@string/activities_and_intents"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.linggash.androidfundamentals.MainActivity"/>
+                android:value="com.linggash.androidfundamentals.MainActivity" />
         </activity>
         <activity
             android:name=".BasicActivity"
             android:label="@string/title_activity_basic"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.AndroidFundamentals.NoActionBar">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.linggash.androidfundamentals.MainActivity" />
